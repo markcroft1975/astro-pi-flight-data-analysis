@@ -43,7 +43,7 @@ Column name|Meaning|Source
 ROW_ID|A unique identifying number for each row. If you're collaborating with other people it may be useful to have a way to specify the exact row number when you find something interesting in the data.|Database auto-increment.
 temp_cpu|The temperature of the Raspberry Pi B+ CPU in degrees *Celsius*.|Raspberry Pi GPU mailbox (`/sys/class/thermal/thermal_zone0/temp`).
 temp_h|The temperature in degrees *Celsius*.|Sense HAT Humidity sensor.
-temp_p|The temperature in degrees *Celsius*.|Sense HAT Pressure sensor.
+temp_p|The Pressure in ??.|Sense HAT Pressure sensor.
 humidity|The *percent* relative humidity.|Sense HAT Humidity sensor.
 pressure|Air pressure in *Millibars*.|Sense HAT Pressure sensor.
 pitch|An angle between 0 and 360 *degrees* giving the current pitch orientation.|Calculated from combined Sense HAT accel, gyro and mag readings. 
